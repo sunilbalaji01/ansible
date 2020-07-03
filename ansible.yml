@@ -14,7 +14,6 @@
     yum:
       name: python-pip
       state: latest
-  - name: install the latest version of Docker-compose from pip
-    - easy_install:
-        name: pip
-        state: latestt
+  - easy_install:
+      name: pip
+      state: latestt
