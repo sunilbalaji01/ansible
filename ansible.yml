@@ -17,3 +17,4 @@
   - name: install the latest version of Docker-compose from pip
     pip:
       name: docker-compose
+      state: latest
