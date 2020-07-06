@@ -3,3 +3,5 @@ FROM openjdk:12-alpine
 COPY /target/SampleExample-1.0.0.jar /example.jar
 
 CMD ["java", "-jar", "/example.jar"]
+
+EXPOSE 8080
