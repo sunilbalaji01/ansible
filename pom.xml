@@ -6,16 +6,6 @@
 	<packaging>jar</packaging>
 	<name>SampleExample</name>
 	<version>1.0.0</version>
-<configuration>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.mypackage.MyClass</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-   
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
